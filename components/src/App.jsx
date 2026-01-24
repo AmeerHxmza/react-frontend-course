@@ -1,5 +1,8 @@
 import Product from "./components/Product";
 import Drive from "./components/Drive";
+import Events from "./components/Events";
+import UseState from "./components/UseState";
+import Filter from "./components/Filter";
 
 const App = () => {
   // const products = [
@@ -11,8 +14,14 @@ const App = () => {
 
   return (
     <div>
-      <Drive></Drive>
-      {/* <Product data={products}/> */}
+      {/* <Drive></Drive>
+      <Product data={products}/> */}
+
+      {/* <Events></Events> */}
+
+      {/* <UseState></UseState> */}
+
+      <Filter></Filter>
     </div>
   );
 };
