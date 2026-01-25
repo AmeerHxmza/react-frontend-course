@@ -3,6 +3,10 @@ import Drive from "./components/Drive";
 import Events from "./components/Events";
 import UseState from "./components/UseState";
 import Filter from "./components/Filter";
+import UseEffect from "./components/UseEffect";
+import FetchData from "./components/FetchData";
+import FetchImages from "./components/FetchImages";
+import FormHandling from "./components/FormHandling";
 
 const App = () => {
   // const products = [
@@ -21,7 +25,15 @@ const App = () => {
 
       {/* <UseState></UseState> */}
 
-      <Filter></Filter>
+      {/* <Filter></Filter> */}
+
+      {/* <UseEffect></UseEffect> */}
+
+      {/* <FetchData></FetchData> */}
+
+      {/* <FetchImages/> */}
+
+      <FormHandling/>
     </div>
   );
 };
