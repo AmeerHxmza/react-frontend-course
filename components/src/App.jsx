@@ -7,6 +7,7 @@ import UseEffect from "./components/UseEffect";
 import FetchData from "./components/FetchData";
 import FetchImages from "./components/FetchImages";
 import FormHandling from "./components/FormHandling";
+import AdvanceFormHandling from "./components/AdvanceFormHandling";
 
 const App = () => {
   // const products = [
@@ -34,6 +35,7 @@ const App = () => {
       {/* <FetchImages/> */}
 
       <FormHandling/>
+      <AdvanceFormHandling></AdvanceFormHandling>
     </div>
   );
 };
