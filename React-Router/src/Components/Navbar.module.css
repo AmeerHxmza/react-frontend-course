@@ -1,0 +1,18 @@
+.navbar {
+  background: pink;
+  padding: 10px;
+}
+
+.link {
+  color: blue;
+  background: transparent;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+}
+
+.active {
+  color: white;
+  background: green;
+}
