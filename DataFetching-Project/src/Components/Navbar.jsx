@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link className={styles.link} to="/about">
             About
           </Link>
-          <Link className={styles.link} to="/profile">
+          <Link className={styles.link} to="/profile" prefetch="intent">
             Profile
           </Link>
         </div>
