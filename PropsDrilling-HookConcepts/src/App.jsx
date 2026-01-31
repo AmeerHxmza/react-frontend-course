@@ -1,11 +1,11 @@
 import React from "react";
-import Index from "./UseCallback/Index.jsx";
 import UseMemo from "./UseMemo/UseMemo.jsx";
+import Index from "./UseTransition/Index.jsx"
 
 const App = () => {
   return (
     <>
-      <UseMemo></UseMemo>
+      <Index></Index>
     </>
   );
 };
