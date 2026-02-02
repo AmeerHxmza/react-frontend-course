@@ -1,6 +1,7 @@
 import React from "react";
 import UseMemo from "./UseMemo/UseMemo.jsx";
-import Index from "./UseTransition/Index.jsx"
+import Index from "./CustomHook/Index.jsx"
+
 
 const App = () => {
   return (
